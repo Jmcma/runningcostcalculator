@@ -38,7 +38,7 @@ $scope.SwitchFunction = function (matval){
 		return $scope.matname;
 		break;
 		case 0.15000000000000001:
-		$scope.matname = "Heating Mat for tiles, stone and glued floorings 150 W/m²";
+		$scope.matname = "testing 150 W/m²";
 		return $scope.matname;
 		break;
 		case 0.16:
