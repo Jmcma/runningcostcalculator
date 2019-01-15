@@ -1,0 +1,67 @@
+.calculator-container{
+	width:100%;
+	font-family: "Roboto", sans-serif;
+    color: #636466;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.text-container-costs{
+	font-family: "Roboto", sans-serif;
+    color: #636466;
+    font-size: 14px;
+    line-height: 1.5;
+}
+
+.product-container-big{
+	width:45%;
+}
+.product-container-small{
+	float:left;
+	width: 35%;
+	border:2px solid transparent;
+}
+.product-container-small:hover{
+}
+.product-img-radio{
+	position:relative;
+	width:98%;
+}
+.product-img-radio:hover{
+	border:2px solid #f58220;
+}
+.product-values-radio{ 
+  visibility: hidden; 
+  position: absolute; 
+}
+label > input + img{ 
+  cursor:pointer;
+  border:2px solid transparent;
+}
+label > input:checked + img{ 
+  border:2px solid #f58220;
+}
+.results-container{
+   width: 55%;
+   margin-left: 40%;
+}
+.room-size-title, .daily-use-title, .energy-cost-title{
+	display: inline-block;
+	margin: auto;
+}
+.room-size-container, .daily-use-container, .energy-cost-container{
+    margin-bottom: 15px;
+}	
+.room-size-container input{
+	margin-left: 15px;
+	width:60px;
+}
+.daily-use-container input{
+	margin-left: 9px
+}
+.energy-cost-container input{
+	width: 60px;
+}
+tr.border_bottom td {
+  border-bottom:1pt solid black;
+}
